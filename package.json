@@ -1,0 +1,28 @@
+{
+  "name": "article_categorize",
+  "version": "1.0.0",
+  "description": "Article categorize by nodejieba & naivebayes",
+  "scripts": {
+    "learn": "node ./src/learn.js",
+    "categorize": "node ./src/categorize.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Exinfinite Chen",
+    "email": "chen.min.home@gmail.com"
+  },
+  "keywords": [
+    "chinese",
+    "nodejieba",
+    "jieba",
+    "繁體中文分词",
+    "结巴分词",
+    "naivebayes"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "naivebayes": "^0.5.0",
+    "nodejieba": "2.2.6"
+  },
+  "devDependencies": {}
+}
