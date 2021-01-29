@@ -1,4 +1,4 @@
-# Article categorize by nodejs
+# 文章分類模型(使用台灣繁體斷詞)
 
 ### 下載後執行
 ```js
@@ -17,3 +17,8 @@ npm run learn
 ```js
 npm run categorize
 ```
+
+### Reference
+* [naivebayes](https://github.com/surmon-china/naivebayes)
+* [nodejieba](https://github.com/yanyiwu/nodejieba)
+* [結巴中文斷詞台灣繁體版本](https://github.com/ldkrsi/jieba-zh_TW)
