@@ -1,5 +1,4 @@
-# article_categorize
-Article categorize by nodejieba &amp; naivebayes
+# Article categorize by nodejs
 
 ### 下載後執行
 ```js
