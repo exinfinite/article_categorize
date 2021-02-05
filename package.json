@@ -5,6 +5,8 @@
   "scripts": {
     "learn": "node ./src/learn.js",
     "categorize": "node ./src/categorize.js",
+    "release": "standard-version --header=\"# Changelog \"",
+    "release-first": "npm run release -- --first-release",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": {
